@@ -53,13 +53,20 @@
 
         <mj-section padding="20px 64px 30px">
           <mj-column padding="0">
-            <mj-text padding="0 0 40px"  line-height="24px">
-            Your warranty code has been generated<br>
-            {{warranty_code}} <br>
-            Your warranty will expire on {{warranty_expiration_code}}
+            <mj-text padding="0 0 "  line-height="24px">
+            Your warranty code has been generated
+            </mj-text>
+             <mj-text padding="0" line-height="24px">
+                 {{warranty_code}}
+            </mj-text>
+             <mj-text padding="0 0 40px" line-height="24px">
+               Your warranty will expire on {{warranty_expiration_code}}
+            </mj-text>
+
+            <mj-text padding="0" line-height="24px">
+                Kind Regards,
             </mj-text>
             <mj-text padding="0" line-height="24px">
-                Kind Regards,<br>
             {{brand_name}}
             </mj-text>
           </mj-column>

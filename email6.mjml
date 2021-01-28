@@ -54,7 +54,7 @@
         <mj-section padding="20px 64px 30px">
           <mj-column padding="0">
             <mj-text padding="0 0 0"  line-height="24px">
-               Please verify your email address by copy/pasting the code<br> below in the {{host}} page.
+               Please verify your email address by copy/pasting the code below&nbsp;in the {{host}} page.
             </mj-text>
             <mj-text padding="0 0 0"  line-height="24px">{{code}}</mj-text>
             <mj-text padding="0 0 0"  line-height="24px">
