@@ -24,79 +24,51 @@
 		</mj-style>
   </mj-head>
   <mj-body>
-    <mj-wrapper background-color="#FFFFFF" padding="20px 0 0"  css-class="body-section" >
+    <mj-wrapper background-color="#FFFFFF" padding="0px 0 0"  css-class="body-section" >
         <!-- Company Header -->
-        <mj-section padding="17px 19px 12px"  css-class="body-section head-border" >
-            <mj-column >
-              <mj-table width="335px" padding="0">
-                <tr>
-                  <td style="padding: 0; text-align: left;"> 
-                    <img style="border-radius: 46px; background: #E4E4E4; display: inline-block;" align="left" width="46px" height="46px" src="images/logo.png" >
-                  </td>
-                  <td style="padding: 0 0 0 14px; text-align: left;"> 
-                    <span style="display: inline-block; font-style: normal;font-weight: bold;font-size: 14px;line-height: 16px;color: #000000;">Company name</span>
-                  </td>
-                  <td style="padding: 0 0 0 16px; text-align: left;font-style: normal; font-weight: normal;font-size: 12px;line-height: 14px;"> 
-                    companyname@mail.com
-                  </td>
-                
-                </tr>
-              </mj-table>
-            </mj-column>   
-        </mj-section> 
+        <mj-section padding="84px 64px 21px">
+          .<mj-column padding="0">
+            <mj-text padding="0" font-size="16px" line-height="18px" font-weight="700" color="#000000">
+              {{brand_name}}
+            </mj-text>
+          </mj-column>
+        </mj-section>
 
-        <mj-section padding="84px 64px 20px">
+        <mj-section padding="22px 64px 35px">
           <mj-column padding="0">
-            <mj-text  padding="0" font-size="28px" line-height="32px" color="#3E27CA" font-weight="700">Your <br>rebate is<br> ready!</mj-text>
+            <mj-text  padding="0" font-size="28px" line-height="32px" color="#3E27CA" font-weight="700">Hi {{first_name}},</mj-text>
           </mj-column>
         </mj-section>
 
         <mj-section padding="20px 64px 30px">
           <mj-column padding="0">
-            <mj-text padding="0">Click on the button below to claim it.</mj-text>
+            <mj-text padding="0 0 41px"  line-height="24px">
+               Please verify your email address by copy pasting the code below in the https://test.com page . <br>DF4#GH34
+            </mj-text>
+            <mj-text padding="0 0 0"  line-height="24px">
+              You can also just click on the button below to continue.
+            </mj-text>
           </mj-column>
         </mj-section>
 
-
         <mj-section> 
           <mj-column padding="30px 64px 0px">
-            <mj-button width="143px" align="left" padding="0" font-size="16px" line-height="18px" inner-padding="12px 19px" font-weight="700" border-radius="7px" background-color="#3E27CA" color="white" href="#">
-              Claim Rebate
+            <mj-button width="180px" align="left" padding="0" font-size="16px" line-height="18px" inner-padding="12px 9px" font-weight="700" border-radius="7px" background-color="#3E27CA" color="white" href="#">
+              Verify your email
             </mj-button>
           </mj-column>
         </mj-section>
 
-      
 
-        <mj-section  css-class="section-width" padding="90px 0 21px" >
+        <mj-section  css-class="section-width" padding="90px 0 7px" >
             <mj-column  padding="0"><mj-divider padding="0"  border-width="1px" border-style="solid" border-color="#3E27CA" /></mj-column>
         </mj-section>
 
-        <mj-section padding="0px 40px 17px">
-          <mj-column padding="0">
-            <mj-table padding="0" width="216px" align="center">
-            
-              <tr>
-                <td style="padding: 0; width: 33.3333%; text-align: center;"> 
-                  <a href="#fb"><img src="images/fb.png" width="44px"></a>
-                </td>
-              <td style="padding: 0; width: 33.3333%; text-align: center;"> 
-                  <a href="#tw"><img src="images/tw.png" width="44px"></a>
-                </td>
-                <td style="padding: 0; width: 33.3333%; text-align: center;"> 
-                  <a href="#inst"><img src="images/ins.png" width="44px"></a>
-                </td>
-              </tr>
-            
-            </mj-table>
-          </mj-column>
-        </mj-section>
+       
         
         <mj-section padding="0 40px 25px">
-          <mj-column>
-          <mj-text padding="0 0 18px" align="center" text-decoration="none" color="#9185D6" font-size="12px" line-height="18px">
-            Powered by Elite Rewards
-          </mj-text>
+          <mj-column padding="0">
+            <mj-image padding="0 0 3px" width="179px" src="images/footerimg.png" alt="" />
             <mj-text padding="0" text-decoration="none" color="#9185D6" font-size="12px" line-height="18px" align="center"> 
               <a  href="#">Unsubscribe</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Privacy Policy</a> &nbsp;&nbsp;|&nbsp;&nbsp; <a  href="#">Contact Support </a>
             </mj-text>
